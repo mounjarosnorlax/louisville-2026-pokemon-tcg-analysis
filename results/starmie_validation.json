@@ -1,0 +1,289 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-03T15:53:36Z",
+  "source_file": "decklists/starmie_froslass_baseline.txt",
+  "index_file": "legality-index/current-standard-printings.json",
+  "parse_errors": [],
+  "not_found_or_illegal": [
+    {
+      "line": 19,
+      "name": "Pokegear 3.0"
+    }
+  ],
+  "ambiguous_printings": [
+    {
+      "line": 20,
+      "name": "Energy Search",
+      "candidate_ids": [
+        "swsh12pt5-128",
+        "me3-72",
+        "sv1-172",
+        "swsh1-161"
+      ]
+    }
+  ],
+  "name_mismatches": [],
+  "validation": {
+    "is_valid": false,
+    "errors": [
+      "Resolve every parse, missing-card, and printing ambiguity first."
+    ],
+    "card_count": 60,
+    "snapshot_as_of": "2026-07-25",
+    "counts_by_supertype": {
+      "Pokémon": 14,
+      "Energy": 12,
+      "Trainer": 27
+    },
+    "copy_limit_violations": [],
+    "ace_spec_count": 1,
+    "card_specific_limit_violations": [],
+    "evolution_chain_gaps": [],
+    "strategic_warnings": [],
+    "role_metrics": {
+      "counts": {},
+      "untagged_cards": [
+        "Basic Water Energy",
+        "Black Belt's Training",
+        "Boss's Orders",
+        "Buddy-Buddy Poffin",
+        "Gravity Mountain",
+        "Hilda",
+        "Ignition Energy",
+        "Legacy Energy",
+        "Lillie's Determination",
+        "Mega Froslass ex",
+        "Mega Signal",
+        "Mega Starmie ex",
+        "Night Stretcher",
+        "Salvatore",
+        "Snorunt",
+        "Staryu",
+        "Switch",
+        "Wally's Compassion"
+      ],
+      "source": "manual_role_overrides"
+    },
+    "metrics": {
+      "basic_pokemon": 8,
+      "opening_hand_has_basic_probability": 0.6536,
+      "energy_cards": 12,
+      "text_detected_search_outs": 12,
+      "text_detected_draw_outs": 6,
+      "text_detected_switch_or_retreat_outs": 4,
+      "low_count_prize_risk": [
+        {
+          "name": "Black Belt's Training",
+          "copies": 1,
+          "probability_all_copies_prized": 0.1
+        },
+        {
+          "name": "Boss's Orders",
+          "copies": 2,
+          "probability_all_copies_prized": 0.0085
+        },
+        {
+          "name": "Gravity Mountain",
+          "copies": 2,
+          "probability_all_copies_prized": 0.0085
+        },
+        {
+          "name": "Hilda",
+          "copies": 2,
+          "probability_all_copies_prized": 0.0085
+        },
+        {
+          "name": "Ignition Energy",
+          "copies": 1,
+          "probability_all_copies_prized": 0.1
+        },
+        {
+          "name": "Legacy Energy",
+          "copies": 1,
+          "probability_all_copies_prized": 0.1
+        },
+        {
+          "name": "Mega Signal",
+          "copies": 2,
+          "probability_all_copies_prized": 0.0085
+        },
+        {
+          "name": "Night Stretcher",
+          "copies": 1,
+          "probability_all_copies_prized": 0.1
+        },
+        {
+          "name": "Switch",
+          "copies": 2,
+          "probability_all_copies_prized": 0.0085
+        }
+      ],
+      "limitations": [
+        "Opening probability ignores mulligan redraw dynamics and Prized cards.",
+        "Functional-out counts are text heuristics and require strategic review."
+      ]
+    }
+  },
+  "resolved_cards": [
+    {
+      "line": 1,
+      "count": 1,
+      "id": "me2pt5-227",
+      "name": "Snorunt",
+      "regulationMark": "I",
+      "legalVia": "current_regulation_mark"
+    },
+    {
+      "line": 2,
+      "count": 3,
+      "id": "me2pt5-46",
+      "name": "Snorunt",
+      "regulationMark": "I",
+      "legalVia": "current_regulation_mark"
+    },
+    {
+      "line": 3,
+      "count": 3,
+      "id": "me2pt5-47",
+      "name": "Mega Froslass ex",
+      "regulationMark": "I",
+      "legalVia": "current_regulation_mark"
+    },
+    {
+      "line": 4,
+      "count": 4,
+      "id": "me3-20",
+      "name": "Staryu",
+      "regulationMark": "J",
+      "legalVia": "current_regulation_mark"
+    },
+    {
+      "line": 5,
+      "count": 1,
+      "id": "me3-102",
+      "name": "Mega Starmie ex",
+      "regulationMark": "J",
+      "legalVia": "current_regulation_mark"
+    },
+    {
+      "line": 6,
+      "count": 2,
+      "id": "me3-21",
+      "name": "Mega Starmie ex",
+      "regulationMark": "J",
+      "legalVia": "current_regulation_mark"
+    },
+    {
+      "line": 7,
+      "count": 10,
+      "id": "sv2-279",
+      "name": "Basic Water Energy",
+      "regulationMark": null,
+      "legalVia": "basic_energy_rule"
+    },
+    {
+      "line": 8,
+      "count": 1,
+      "id": "sv6-167",
+      "name": "Legacy Energy",
+      "regulationMark": "H",
+      "legalVia": "current_regulation_mark"
+    },
+    {
+      "line": 9,
+      "count": 1,
+      "id": "me2-124",
+      "name": "Ignition Energy",
+      "regulationMark": "I",
+      "legalVia": "current_regulation_mark"
+    },
+    {
+      "line": 10,
+      "count": 4,
+      "id": "sv5-160",
+      "name": "Salvatore",
+      "regulationMark": "H",
+      "legalVia": "current_regulation_mark"
+    },
+    {
+      "line": 11,
+      "count": 4,
+      "id": "me2pt5-192",
+      "name": "Lillie's Determination",
+      "regulationMark": "I",
+      "legalVia": "current_regulation_mark"
+    },
+    {
+      "line": 12,
+      "count": 3,
+      "id": "me1-132",
+      "name": "Wally's Compassion",
+      "regulationMark": "I",
+      "legalVia": "current_regulation_mark"
+    },
+    {
+      "line": 13,
+      "count": 2,
+      "id": "me2pt5-183",
+      "name": "Boss's Orders",
+      "regulationMark": "I",
+      "legalVia": "current_regulation_mark"
+    },
+    {
+      "line": 14,
+      "count": 2,
+      "id": "rsv10pt5-84",
+      "name": "Hilda",
+      "regulationMark": "I",
+      "legalVia": "current_regulation_mark"
+    },
+    {
+      "line": 15,
+      "count": 1,
+      "id": "me2pt5-255",
+      "name": "Black Belt's Training",
+      "regulationMark": "H",
+      "legalVia": "current_regulation_mark"
+    },
+    {
+      "line": 16,
+      "count": 4,
+      "id": "me2pt5-184",
+      "name": "Buddy-Buddy Poffin",
+      "regulationMark": "H",
+      "legalVia": "current_regulation_mark"
+    },
+    {
+      "line": 17,
+      "count": 2,
+      "id": "sv3pt5-206",
+      "name": "Switch",
+      "regulationMark": "G",
+      "legalVia": "historical_functional_reprint"
+    },
+    {
+      "line": 18,
+      "count": 2,
+      "id": "me2pt5-193",
+      "name": "Mega Signal",
+      "regulationMark": "I",
+      "legalVia": "current_regulation_mark"
+    },
+    {
+      "line": 21,
+      "count": 1,
+      "id": "me2pt5-196",
+      "name": "Night Stretcher",
+      "regulationMark": "H",
+      "legalVia": "current_regulation_mark"
+    },
+    {
+      "line": 22,
+      "count": 2,
+      "id": "sv8-177",
+      "name": "Gravity Mountain",
+      "regulationMark": "H",
+      "legalVia": "current_regulation_mark"
+    }
+  ]
+}

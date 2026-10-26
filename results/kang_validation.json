@@ -1,0 +1,431 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-03T15:45:31Z",
+  "source_file": "decklists/kang_crustle_baseline.txt",
+  "index_file": "legality-index/current-standard-printings.json",
+  "parse_errors": [],
+  "not_found_or_illegal": [
+    {
+      "line": 5,
+      "name": "Psyduck"
+    },
+    {
+      "line": 23,
+      "name": "Poke Pad"
+    },
+    {
+      "line": 24,
+      "name": "Pokegear 3.0"
+    },
+    {
+      "line": 31,
+      "name": "Backtrack Badge"
+    }
+  ],
+  "ambiguous_printings": [
+    {
+      "line": 21,
+      "name": "Jumbo Ice Cream",
+      "candidate_ids": [
+        "me4-109",
+        "me2-91"
+      ]
+    },
+    {
+      "line": 27,
+      "name": "Ultra Ball",
+      "candidate_ids": [
+        "me2pt5-213",
+        "me2pt5-264",
+        "swsh9-150",
+        "swsh9-186",
+        "swsh12pt5-146",
+        "me1-131",
+        "sv1-196"
+      ]
+    },
+    {
+      "line": 29,
+      "name": "Team Rocket's Factory",
+      "candidate_ids": [
+        "me2pt5-203",
+        "sv10-173"
+      ]
+    }
+  ],
+  "name_mismatches": [],
+  "validation": {
+    "is_valid": false,
+    "errors": [
+      "Resolve every parse, missing-card, and printing ambiguity first."
+    ],
+    "card_count": 60,
+    "snapshot_as_of": "2026-07-25",
+    "counts_by_supertype": {
+      "Pokémon": 13,
+      "Energy": 12,
+      "Trainer": 23
+    },
+    "copy_limit_violations": [],
+    "ace_spec_count": 1,
+    "card_specific_limit_violations": [],
+    "evolution_chain_gaps": [],
+    "strategic_warnings": [],
+    "role_metrics": {
+      "counts": {},
+      "untagged_cards": [
+        "Basic Darkness Energy",
+        "Basic Grass Energy",
+        "Basic Lightning Energy",
+        "Battle Cage",
+        "Boss's Orders",
+        "Bouffalant",
+        "Brock's Scouting",
+        "Buddy-Buddy Poffin",
+        "Ciphermaniac's Codebreaking",
+        "Crispin",
+        "Crustle",
+        "Dwebble",
+        "Growing Grass Energy",
+        "Hilda",
+        "Joltik",
+        "Latias ex",
+        "Lillie's Determination",
+        "Mega Kangaskhan ex",
+        "Mist Energy",
+        "Munkidori",
+        "Night Stretcher",
+        "Precious Trolley",
+        "Special Red Card",
+        "Switch",
+        "Team Rocket's Petrel",
+        "Xerosic's Machinations"
+      ],
+      "source": "manual_role_overrides"
+    },
+    "metrics": {
+      "basic_pokemon": 11,
+      "opening_hand_has_basic_probability": 0.7776,
+      "energy_cards": 12,
+      "text_detected_search_outs": 11,
+      "text_detected_draw_outs": 7,
+      "text_detected_switch_or_retreat_outs": 4,
+      "low_count_prize_risk": [
+        {
+          "name": "Basic Darkness Energy",
+          "copies": 2,
+          "probability_all_copies_prized": 0.0085
+        },
+        {
+          "name": "Battle Cage",
+          "copies": 1,
+          "probability_all_copies_prized": 0.1
+        },
+        {
+          "name": "Brock's Scouting",
+          "copies": 1,
+          "probability_all_copies_prized": 0.1
+        },
+        {
+          "name": "Buddy-Buddy Poffin",
+          "copies": 2,
+          "probability_all_copies_prized": 0.0085
+        },
+        {
+          "name": "Ciphermaniac's Codebreaking",
+          "copies": 1,
+          "probability_all_copies_prized": 0.1
+        },
+        {
+          "name": "Crispin",
+          "copies": 1,
+          "probability_all_copies_prized": 0.1
+        },
+        {
+          "name": "Crustle",
+          "copies": 2,
+          "probability_all_copies_prized": 0.0085
+        },
+        {
+          "name": "Dwebble",
+          "copies": 2,
+          "probability_all_copies_prized": 0.0085
+        },
+        {
+          "name": "Growing Grass Energy",
+          "copies": 1,
+          "probability_all_copies_prized": 0.1
+        },
+        {
+          "name": "Hilda",
+          "copies": 1,
+          "probability_all_copies_prized": 0.1
+        },
+        {
+          "name": "Joltik",
+          "copies": 2,
+          "probability_all_copies_prized": 0.0085
+        },
+        {
+          "name": "Latias ex",
+          "copies": 1,
+          "probability_all_copies_prized": 0.1
+        },
+        {
+          "name": "Mega Kangaskhan ex",
+          "copies": 2,
+          "probability_all_copies_prized": 0.0085
+        },
+        {
+          "name": "Mist Energy",
+          "copies": 1,
+          "probability_all_copies_prized": 0.1
+        },
+        {
+          "name": "Munkidori",
+          "copies": 1,
+          "probability_all_copies_prized": 0.1
+        },
+        {
+          "name": "Night Stretcher",
+          "copies": 1,
+          "probability_all_copies_prized": 0.1
+        },
+        {
+          "name": "Precious Trolley",
+          "copies": 1,
+          "probability_all_copies_prized": 0.1
+        },
+        {
+          "name": "Special Red Card",
+          "copies": 1,
+          "probability_all_copies_prized": 0.1
+        },
+        {
+          "name": "Switch",
+          "copies": 1,
+          "probability_all_copies_prized": 0.1
+        },
+        {
+          "name": "Xerosic's Machinations",
+          "copies": 1,
+          "probability_all_copies_prized": 0.1
+        }
+      ],
+      "limitations": [
+        "Opening probability ignores mulligan redraw dynamics and Prized cards.",
+        "Functional-out counts are text heuristics and require strategic review."
+      ]
+    }
+  },
+  "resolved_cards": [
+    {
+      "line": 1,
+      "count": 2,
+      "id": "sv7-50",
+      "name": "Joltik",
+      "regulationMark": "H",
+      "legalVia": "current_regulation_mark"
+    },
+    {
+      "line": 2,
+      "count": 2,
+      "id": "sv10-11",
+      "name": "Dwebble",
+      "regulationMark": "I",
+      "legalVia": "current_regulation_mark"
+    },
+    {
+      "line": 3,
+      "count": 2,
+      "id": "sv10-186",
+      "name": "Crustle",
+      "regulationMark": "I",
+      "legalVia": "current_regulation_mark"
+    },
+    {
+      "line": 4,
+      "count": 2,
+      "id": "me1-164",
+      "name": "Mega Kangaskhan ex",
+      "regulationMark": "I",
+      "legalVia": "current_regulation_mark"
+    },
+    {
+      "line": 6,
+      "count": 1,
+      "id": "sv8pt5-44",
+      "name": "Munkidori",
+      "regulationMark": "H",
+      "legalVia": "current_regulation_mark"
+    },
+    {
+      "line": 7,
+      "count": 3,
+      "id": "sv7-119",
+      "name": "Bouffalant",
+      "regulationMark": "H",
+      "legalVia": "current_regulation_mark"
+    },
+    {
+      "line": 8,
+      "count": 1,
+      "id": "sv8-220",
+      "name": "Latias ex",
+      "regulationMark": "H",
+      "legalVia": "current_regulation_mark"
+    },
+    {
+      "line": 9,
+      "count": 4,
+      "id": "sv1-257",
+      "name": "Basic Lightning Energy",
+      "regulationMark": null,
+      "legalVia": "basic_energy_rule"
+    },
+    {
+      "line": 10,
+      "count": 4,
+      "id": "sv2-278",
+      "name": "Basic Grass Energy",
+      "regulationMark": null,
+      "legalVia": "basic_energy_rule"
+    },
+    {
+      "line": 11,
+      "count": 2,
+      "id": "sve-7",
+      "name": "Basic Darkness Energy",
+      "regulationMark": null,
+      "legalVia": "basic_energy_rule"
+    },
+    {
+      "line": 12,
+      "count": 1,
+      "id": "me3-86",
+      "name": "Growing Grass Energy",
+      "regulationMark": "J",
+      "legalVia": "current_regulation_mark"
+    },
+    {
+      "line": 13,
+      "count": 1,
+      "id": "sv5-161",
+      "name": "Mist Energy",
+      "regulationMark": "H",
+      "legalVia": "current_regulation_mark"
+    },
+    {
+      "line": 14,
+      "count": 3,
+      "id": "me2pt5-183",
+      "name": "Boss's Orders",
+      "regulationMark": "I",
+      "legalVia": "current_regulation_mark"
+    },
+    {
+      "line": 15,
+      "count": 1,
+      "id": "sv9-146",
+      "name": "Brock's Scouting",
+      "regulationMark": "I",
+      "legalVia": "current_regulation_mark"
+    },
+    {
+      "line": 16,
+      "count": 1,
+      "id": "sv8pt5-104",
+      "name": "Ciphermaniac's Codebreaking",
+      "regulationMark": "H",
+      "legalVia": "current_regulation_mark"
+    },
+    {
+      "line": 17,
+      "count": 4,
+      "id": "me2pt5-192",
+      "name": "Lillie's Determination",
+      "regulationMark": "I",
+      "legalVia": "current_regulation_mark"
+    },
+    {
+      "line": 18,
+      "count": 4,
+      "id": "me2pt5-207",
+      "name": "Team Rocket's Petrel",
+      "regulationMark": "I",
+      "legalVia": "current_regulation_mark"
+    },
+    {
+      "line": 19,
+      "count": 1,
+      "id": "sv6pt5-64",
+      "name": "Xerosic's Machinations",
+      "regulationMark": "H",
+      "legalVia": "current_regulation_mark"
+    },
+    {
+      "line": 20,
+      "count": 2,
+      "id": "me2pt5-184",
+      "name": "Buddy-Buddy Poffin",
+      "regulationMark": "H",
+      "legalVia": "current_regulation_mark"
+    },
+    {
+      "line": 22,
+      "count": 1,
+      "id": "me2pt5-196",
+      "name": "Night Stretcher",
+      "regulationMark": "H",
+      "legalVia": "current_regulation_mark"
+    },
+    {
+      "line": 25,
+      "count": 1,
+      "id": "me4-82",
+      "name": "Special Red Card",
+      "regulationMark": "J",
+      "legalVia": "current_regulation_mark"
+    },
+    {
+      "line": 26,
+      "count": 1,
+      "id": "sv3pt5-206",
+      "name": "Switch",
+      "regulationMark": "G",
+      "legalVia": "historical_functional_reprint"
+    },
+    {
+      "line": 28,
+      "count": 1,
+      "id": "sv8-185",
+      "name": "Precious Trolley",
+      "regulationMark": "H",
+      "legalVia": "current_regulation_mark"
+    },
+    {
+      "line": 30,
+      "count": 1,
+      "id": "me2-85",
+      "name": "Battle Cage",
+      "regulationMark": "I",
+      "legalVia": "current_regulation_mark"
+    },
+    {
+      "line": 32,
+      "count": 1,
+      "id": "rsv10pt5-84",
+      "name": "Hilda",
+      "regulationMark": "I",
+      "legalVia": "current_regulation_mark"
+    },
+    {
+      "line": 33,
+      "count": 1,
+      "id": "sv8pt5-105",
+      "name": "Crispin",
+      "regulationMark": "H",
+      "legalVia": "current_regulation_mark"
+    }
+  ]
+}

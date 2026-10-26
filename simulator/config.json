@@ -1,0 +1,11 @@
+{
+  "seed": 20261003,
+  "iterations": 200000,
+  "opponent_assumptions": {
+    "single_basic_probability": 0.08,
+    "bench_present_probability": 0.92,
+    "post_setup_hand_size": 5,
+    "active_hp_distribution": {"70": 0.34, "80": 0.12, "90": 0.09, "100": 0.08, "110": 0.11, "120": 0.12, "130": 0.08, "140": 0.04, "230": 0.02}
+  },
+  "warning": "Opponent assumptions are explicit sensitivity inputs, not measured Louisville facts. Replace them after logging real opening boards."
+}

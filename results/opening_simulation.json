@@ -1,0 +1,378 @@
+{
+  "seed": 20261003,
+  "iterations_per_configuration": 100000,
+  "scope": "opening and prize simulation only",
+  "starmie": {
+    "baseline": {
+      "changes": {},
+      "metrics": {
+        "iterations": 100000,
+        "mulligan_rate_per_opening_attempt_pct": 34.912,
+        "mean_mulligans_before_valid_hand": 0.5364,
+        "direct_salvatore_pct": 42.085,
+        "donk_pct": 3.299,
+        "energy_access_pct": 90.108,
+        "evolution_target_in_deck_pct": 99.157,
+        "froslass_attack_pct": 18.634,
+        "ko_pct": 41.766,
+        "salvatore_access_pct": 52.04,
+        "starmie_attack_pct": 26.788,
+        "t1_attack_pct": 45.422,
+        "t1_high_pressure_pct": 45.151,
+        "t1_meaningful_pct": 45.422
+      }
+    },
+    "salvatore_3": {
+      "changes": {
+        "Salvatore": 3
+      },
+      "metrics": {
+        "iterations": 100000,
+        "mulligan_rate_per_opening_attempt_pct": 34.492,
+        "mean_mulligans_before_valid_hand": 0.5265,
+        "direct_salvatore_pct": 33.256,
+        "donk_pct": 2.615,
+        "energy_access_pct": 90.027,
+        "evolution_target_in_deck_pct": 99.165,
+        "froslass_attack_pct": 14.902,
+        "ko_pct": 33.526,
+        "salvatore_access_pct": 42.248,
+        "starmie_attack_pct": 21.773,
+        "t1_attack_pct": 36.675,
+        "t1_high_pressure_pct": 36.429,
+        "t1_meaningful_pct": 36.675
+      }
+    },
+    "salvatore_2": {
+      "changes": {
+        "Salvatore": 2
+      },
+      "metrics": {
+        "iterations": 100000,
+        "mulligan_rate_per_opening_attempt_pct": 34.45,
+        "mean_mulligans_before_valid_hand": 0.5255,
+        "direct_salvatore_pct": 23.371,
+        "donk_pct": 1.938,
+        "energy_access_pct": 90.142,
+        "evolution_target_in_deck_pct": 99.156,
+        "froslass_attack_pct": 10.853,
+        "ko_pct": 24.368,
+        "salvatore_access_pct": 30.734,
+        "starmie_attack_pct": 15.754,
+        "t1_attack_pct": 26.607,
+        "t1_high_pressure_pct": 26.432,
+        "t1_meaningful_pct": 26.607
+      }
+    },
+    "salvatore_1": {
+      "changes": {
+        "Salvatore": 1
+      },
+      "metrics": {
+        "iterations": 100000,
+        "mulligan_rate_per_opening_attempt_pct": 34.748,
+        "mean_mulligans_before_valid_hand": 0.5325,
+        "direct_salvatore_pct": 12.382,
+        "donk_pct": 1.03,
+        "energy_access_pct": 90.028,
+        "evolution_target_in_deck_pct": 99.173,
+        "froslass_attack_pct": 5.943,
+        "ko_pct": 13.242,
+        "salvatore_access_pct": 16.801,
+        "starmie_attack_pct": 8.469,
+        "t1_attack_pct": 14.412,
+        "t1_high_pressure_pct": 14.316,
+        "t1_meaningful_pct": 14.412
+      }
+    },
+    "salvatore_0": {
+      "changes": {
+        "Salvatore": 0
+      },
+      "metrics": {
+        "iterations": 100000,
+        "mulligan_rate_per_opening_attempt_pct": 34.661,
+        "mean_mulligans_before_valid_hand": 0.5305,
+        "direct_salvatore_pct": 0.0,
+        "donk_pct": 0.0,
+        "energy_access_pct": 89.791,
+        "evolution_target_in_deck_pct": 99.109,
+        "froslass_attack_pct": 0.0,
+        "ko_pct": 0.0,
+        "salvatore_access_pct": 0.0,
+        "starmie_attack_pct": 0.0,
+        "t1_attack_pct": 0.0,
+        "t1_high_pressure_pct": 0.0,
+        "t1_meaningful_pct": 0.0
+      }
+    },
+    "energy_search_3": {
+      "changes": {
+        "Energy Search": 3
+      },
+      "metrics": {
+        "iterations": 100000,
+        "mulligan_rate_per_opening_attempt_pct": 34.564,
+        "mean_mulligans_before_valid_hand": 0.5282,
+        "direct_salvatore_pct": 41.637,
+        "donk_pct": 3.157,
+        "energy_access_pct": 88.001,
+        "evolution_target_in_deck_pct": 99.123,
+        "froslass_attack_pct": 17.743,
+        "ko_pct": 40.109,
+        "salvatore_access_pct": 51.696,
+        "starmie_attack_pct": 26.033,
+        "t1_attack_pct": 43.776,
+        "t1_high_pressure_pct": 43.464,
+        "t1_meaningful_pct": 43.776
+      }
+    },
+    "energy_search_2": {
+      "changes": {
+        "Energy Search": 2
+      },
+      "metrics": {
+        "iterations": 100000,
+        "mulligan_rate_per_opening_attempt_pct": 34.753,
+        "mean_mulligans_before_valid_hand": 0.5326,
+        "direct_salvatore_pct": 41.903,
+        "donk_pct": 3.083,
+        "energy_access_pct": 85.786,
+        "evolution_target_in_deck_pct": 99.167,
+        "froslass_attack_pct": 17.165,
+        "ko_pct": 39.025,
+        "salvatore_access_pct": 51.692,
+        "starmie_attack_pct": 25.389,
+        "t1_attack_pct": 42.554,
+        "t1_high_pressure_pct": 42.286,
+        "t1_meaningful_pct": 42.554
+      }
+    },
+    "energy_11": {
+      "changes": {
+        "Water Energy": 9
+      },
+      "metrics": {
+        "iterations": 100000,
+        "mulligan_rate_per_opening_attempt_pct": 34.626,
+        "mean_mulligans_before_valid_hand": 0.5297,
+        "direct_salvatore_pct": 42.155,
+        "donk_pct": 3.19,
+        "energy_access_pct": 88.09,
+        "evolution_target_in_deck_pct": 99.177,
+        "froslass_attack_pct": 18.093,
+        "ko_pct": 40.516,
+        "salvatore_access_pct": 52.021,
+        "starmie_attack_pct": 26.109,
+        "t1_attack_pct": 44.202,
+        "t1_high_pressure_pct": 43.904,
+        "t1_meaningful_pct": 44.202
+      }
+    },
+    "energy_10": {
+      "changes": {
+        "Water Energy": 8
+      },
+      "metrics": {
+        "iterations": 100000,
+        "mulligan_rate_per_opening_attempt_pct": 34.652,
+        "mean_mulligans_before_valid_hand": 0.5303,
+        "direct_salvatore_pct": 42.206,
+        "donk_pct": 3.281,
+        "energy_access_pct": 85.64,
+        "evolution_target_in_deck_pct": 99.173,
+        "froslass_attack_pct": 17.268,
+        "ko_pct": 39.116,
+        "salvatore_access_pct": 51.931,
+        "starmie_attack_pct": 25.415,
+        "t1_attack_pct": 42.683,
+        "t1_high_pressure_pct": 42.413,
+        "t1_meaningful_pct": 42.683
+      }
+    },
+    "froslass_2": {
+      "changes": {
+        "Mega Froslass ex": 2
+      },
+      "metrics": {
+        "iterations": 100000,
+        "mulligan_rate_per_opening_attempt_pct": 34.695,
+        "mean_mulligans_before_valid_hand": 0.5313,
+        "direct_salvatore_pct": 41.956,
+        "donk_pct": 3.268,
+        "energy_access_pct": 90.166,
+        "evolution_target_in_deck_pct": 97.756,
+        "froslass_attack_pct": 17.799,
+        "ko_pct": 40.908,
+        "salvatore_access_pct": 51.839,
+        "starmie_attack_pct": 26.818,
+        "t1_attack_pct": 44.617,
+        "t1_high_pressure_pct": 44.316,
+        "t1_meaningful_pct": 44.617
+      }
+    },
+    "starmie_2": {
+      "changes": {
+        "Mega Starmie ex": 2
+      },
+      "metrics": {
+        "iterations": 100000,
+        "mulligan_rate_per_opening_attempt_pct": 34.558,
+        "mean_mulligans_before_valid_hand": 0.5281,
+        "direct_salvatore_pct": 41.601,
+        "donk_pct": 3.211,
+        "energy_access_pct": 89.996,
+        "evolution_target_in_deck_pct": 97.106,
+        "froslass_attack_pct": 18.183,
+        "ko_pct": 40.536,
+        "salvatore_access_pct": 51.523,
+        "starmie_attack_pct": 25.796,
+        "t1_attack_pct": 43.979,
+        "t1_high_pressure_pct": 43.709,
+        "t1_meaningful_pct": 43.979
+      }
+    },
+    "wally_2": {
+      "changes": {
+        "Wally's Compassion": 2
+      },
+      "metrics": {
+        "iterations": 100000,
+        "mulligan_rate_per_opening_attempt_pct": 34.529,
+        "mean_mulligans_before_valid_hand": 0.5274,
+        "direct_salvatore_pct": 41.939,
+        "donk_pct": 3.247,
+        "energy_access_pct": 90.141,
+        "evolution_target_in_deck_pct": 99.086,
+        "froslass_attack_pct": 18.141,
+        "ko_pct": 41.429,
+        "salvatore_access_pct": 51.907,
+        "starmie_attack_pct": 27.055,
+        "t1_attack_pct": 45.196,
+        "t1_high_pressure_pct": 44.899,
+        "t1_meaningful_pct": 45.196
+      }
+    },
+    "hilda_1": {
+      "changes": {
+        "Hilda": 1
+      },
+      "metrics": {
+        "iterations": 100000,
+        "mulligan_rate_per_opening_attempt_pct": 34.557,
+        "mean_mulligans_before_valid_hand": 0.528,
+        "direct_salvatore_pct": 42.235,
+        "donk_pct": 3.282,
+        "energy_access_pct": 90.109,
+        "evolution_target_in_deck_pct": 99.132,
+        "froslass_attack_pct": 18.164,
+        "ko_pct": 41.562,
+        "salvatore_access_pct": 52.014,
+        "starmie_attack_pct": 27.123,
+        "t1_attack_pct": 45.287,
+        "t1_high_pressure_pct": 45.007,
+        "t1_meaningful_pct": 45.287
+      }
+    },
+    "pokegear_2": {
+      "changes": {
+        "Pokegear 3.0": 2
+      },
+      "metrics": {
+        "iterations": 100000,
+        "mulligan_rate_per_opening_attempt_pct": 34.651,
+        "mean_mulligans_before_valid_hand": 0.5302,
+        "direct_salvatore_pct": 41.853,
+        "donk_pct": 3.119,
+        "energy_access_pct": 90.108,
+        "evolution_target_in_deck_pct": 99.129,
+        "froslass_attack_pct": 16.923,
+        "ko_pct": 38.766,
+        "salvatore_access_pct": 48.669,
+        "starmie_attack_pct": 25.356,
+        "t1_attack_pct": 42.279,
+        "t1_high_pressure_pct": 42.026,
+        "t1_meaningful_pct": 42.279
+      }
+    },
+    "mega_signal_1": {
+      "changes": {
+        "Mega Signal": 1
+      },
+      "metrics": {
+        "iterations": 100000,
+        "mulligan_rate_per_opening_attempt_pct": 34.446,
+        "mean_mulligans_before_valid_hand": 0.5254,
+        "direct_salvatore_pct": 42.034,
+        "donk_pct": 3.32,
+        "energy_access_pct": 90.083,
+        "evolution_target_in_deck_pct": 99.092,
+        "froslass_attack_pct": 18.322,
+        "ko_pct": 41.309,
+        "salvatore_access_pct": 51.869,
+        "starmie_attack_pct": 26.792,
+        "t1_attack_pct": 45.114,
+        "t1_high_pressure_pct": 44.811,
+        "t1_meaningful_pct": 45.114
+      }
+    },
+    "switch_1": {
+      "changes": {
+        "Switch": 1
+      },
+      "metrics": {
+        "iterations": 100000,
+        "mulligan_rate_per_opening_attempt_pct": 34.591,
+        "mean_mulligans_before_valid_hand": 0.5288,
+        "direct_salvatore_pct": 41.682,
+        "donk_pct": 3.29,
+        "energy_access_pct": 89.934,
+        "evolution_target_in_deck_pct": 99.116,
+        "froslass_attack_pct": 18.181,
+        "ko_pct": 41.256,
+        "salvatore_access_pct": 51.779,
+        "starmie_attack_pct": 26.848,
+        "t1_attack_pct": 45.029,
+        "t1_high_pressure_pct": 44.726,
+        "t1_meaningful_pct": 45.029
+      }
+    },
+    "gravity_1": {
+      "changes": {
+        "Gravity Mountain": 1
+      },
+      "metrics": {
+        "iterations": 100000,
+        "mulligan_rate_per_opening_attempt_pct": 34.521,
+        "mean_mulligans_before_valid_hand": 0.5272,
+        "direct_salvatore_pct": 41.887,
+        "donk_pct": 3.353,
+        "energy_access_pct": 89.939,
+        "evolution_target_in_deck_pct": 99.165,
+        "froslass_attack_pct": 18.236,
+        "ko_pct": 41.396,
+        "salvatore_access_pct": 51.933,
+        "starmie_attack_pct": 26.918,
+        "t1_attack_pct": 45.154,
+        "t1_high_pressure_pct": 44.865,
+        "t1_meaningful_pct": 45.154
+      }
+    }
+  },
+  "kang": {
+    "baseline": {
+      "iterations": 100000,
+      "mulligan_rate_per_opening_attempt_pct": 19.045,
+      "mean_mulligans_before_valid_hand": 0.2352,
+      "dwebble_access_pct": 60.235,
+      "energy_access_pct": 83.767,
+      "joltik_access_pct": 60.259,
+      "lillie_access_pct": 42.603,
+      "poffin_access_pct": 23.924,
+      "pokegear_effective_access_pct": 3.398,
+      "setup_pair_pct": 34.776,
+      "supporter_access_pct": 95.574,
+      "trolley_access_pct": 12.637
+    }
+  }
+}
